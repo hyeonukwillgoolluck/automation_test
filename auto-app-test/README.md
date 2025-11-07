@@ -121,3 +121,13 @@ JUNIT=1 JUNIT_XML=reports/junit/report.xml ./run_tests.sh
 
 ---
 본 템플릿은 루트 PRD 요구사항(구조/분리/병렬/클라우드/문서화)을 기준으로 최소 실행 예시를 제공합니다. 언어/러너 전환(예: Java + TestNG, TS + WDIO)도 가능합니다. 원하시면 해당 스택으로 동일 구조 변환을 추가해드릴게요.
+
+## 문서(Manual)
+- docs/01-getting-started.md
+- docs/02-project-structure.md
+- docs/03-capabilities-and-env.md
+- docs/04-running-and-parallel.md
+- docs/05-reporting.md
+- docs/06-page-object-guide.md
+- docs/07-ci-jenkins.md
+- docs/08-troubleshooting.md
