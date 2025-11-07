@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+
+# Test outputs
+reports/
+allure-results/
+allure-report/
+results/
+
+# OS
+.DS_Store
+

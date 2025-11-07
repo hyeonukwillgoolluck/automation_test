@@ -1,0 +1,12 @@
+{
+  "platformName": "Android",
+  "automationName": "UiAutomator2",
+  "deviceName": "Android Emulator",
+  "udid": "",
+  "platformVersion": "",
+  "appPackage": "com.example.android",
+  "appActivity": ".MainActivity",
+  "appWaitActivity": ".MainActivity",
+  "app": "",
+  "systemPort": 8200
+}

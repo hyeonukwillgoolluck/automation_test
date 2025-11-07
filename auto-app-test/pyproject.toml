@@ -1,0 +1,38 @@
+[project]
+name = "auto-app-test"
+version = "0.1.0"
+description = "Cross-platform (Android/iOS) Appium UI test template using POM and separated capabilities"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+dependencies = [
+  "appium-python-client>=3.2.1,<4.0.0",
+  "pytest>=8.2.0,<9.0.0",
+  "pytest-xdist>=3.6.1,<4.0.0",
+  "python-dotenv>=1.0.1,<2.0.0",
+]
+
+[project.optional-dependencies]
+report = [
+  "allure-pytest>=2.13.5,<3.0.0",
+]
+
+[project.scripts]
+appium-pom-open = "appium_pom.cli:main"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-q"
+testpaths = ["tests"]
+markers = [
+  "android: tests that run on Android",
+  "ios: tests that run on iOS",
+  "smoke: quick smoke checks",
+]
+
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

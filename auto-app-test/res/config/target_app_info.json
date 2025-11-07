@@ -1,0 +1,20 @@
+{
+  "appName": "Sample App",
+  "android": {
+    "appPackage": "com.example.android",
+    "appActivity": ".MainActivity",
+    "appWaitActivity": ".MainActivity"
+  },
+  "ios": {
+    "bundleId": "com.example.iosapp"
+  },
+  "project": {
+    "name": "Sample Mobile Automation"
+  },
+  "apiBase": "https://api.example.com",
+  "cloud": {
+    "browserstack": {
+      "projectName": "Sample BS Project"
+    }
+  }
+}

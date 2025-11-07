@@ -1,0 +1,6 @@
+{
+  "newCommandTimeout": 180,
+  "autoAcceptAlerts": true,
+  "autoGrantPermissions": true,
+  "noReset": false
+}

@@ -1,0 +1,14 @@
+{
+  "platformName": "iOS",
+  "automationName": "XCUITest",
+  "bundleId": "com.example.iosapp",
+  "bstack:options": {
+    "projectName": "Sample BS Project",
+    "buildName": "Local Build",
+    "sessionName": "Smoke Test",
+    "local": false,
+    "debug": true,
+    "networkLogs": true
+  },
+  "app": "bs://<app-id>"
+}

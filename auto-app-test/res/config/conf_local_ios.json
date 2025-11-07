@@ -1,0 +1,12 @@
+{
+  "platformName": "iOS",
+  "automationName": "XCUITest",
+  "deviceName": "iPhone Simulator",
+  "udid": "",
+  "platformVersion": "",
+  "bundleId": "com.example.iosapp",
+  "app": "",
+  "wdaLocalPort": 8100,
+  "xcodeSigningId": "Apple Development",
+  "xcodeOrgId": ""
+}

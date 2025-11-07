@@ -1,0 +1,15 @@
+{
+  "platformName": "Android",
+  "automationName": "UiAutomator2",
+  "appPackage": "com.example.android",
+  "appActivity": ".MainActivity",
+  "bstack:options": {
+    "projectName": "Sample BS Project",
+    "buildName": "Local Build",
+    "sessionName": "Smoke Test",
+    "local": false,
+    "debug": true,
+    "networkLogs": true
+  },
+  "app": "bs://<app-id>"
+}
